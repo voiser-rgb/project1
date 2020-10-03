@@ -1,0 +1,53 @@
+body {
+    background-color: khaki;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: red;
+    text-align: center;             /* Положение текста в блоке */
+    font-weight: 900;               /* Регулирование жирности текста */
+    font-style: italic;             /* Стиль текста */
+    text-decoration: underline;     /* Декорация текста */
+    font-size: 30px;                /* Размер шрифта */
+}
+
+.text {
+    font-weight: 900;
+    text-transform: uppercase;      /* Редактировать текст(uppercase - каждая буква слова большая) */
+}
+
+.chapter {
+    color:rgba(255, 20, 147, 1);
+}
+
+#begin {
+    color: seagreen;
+}
+
+img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    display: inline-block;
+    width: 300px;                     /* ширина блока */
+    height: 300px;                    /* высота блока */
+    background-color: seagreen;     /* цвет блока */
+    padding:20px 50px;                /* расположение контента внутри блока */
+    /* border-width: 3px; 
+    border-style: solid;               
+    border-color: black;   */ 
+    border: 3px solid black;
+    margin: 20px;         
+
+}
+a {
+    padding: 20px;
+    margin: 20px;
+}
