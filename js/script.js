@@ -87,3 +87,6 @@ console.log(decr);
 
 console.log(++incr);
 console.log(decr--);
+
+let num = 3;
+let string = "hello";
